@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+
+}
+
+main{
+    display: flex;
+    height: 95vh;
+    color: white;
+    font-family: "Manrope",sans-serif;
+    padding: 1rem;
+}
+
+.card{
+    max-width: 400px;
+    /* min-height: 230px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: hsl(217, 19%, 24%);
+    padding: 2rem;
+    position: relative;
+    border-radius: 1rem;
+
+}
+
+.card h3{
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: hsl(150, 100%, 66%);
+
+}
+
+.card h2{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
+
+
+.pause{
+    margin-bottom: 1.4rem;
+    font-size: 24px;
+}
+
+.line{
+    display: inline-block;
+    height: 1px;
+    background-color: hsl(217, 19%, 38%);
+    width: 100%;
+    margin: 10px;
+}
+
+.line-border{
+    width: 100%;
+    display: flex;
+}
+
+.five-icon{
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    padding: 1rem;
+    bottom: 0;
+    transform: translateY(50%);
+    border-radius: 50%;
+    font-size: 1.4rem;
+    color: black;
+    cursor: pointer;
+}
+
+/* .five-icon:hover::after{
+    content: attr(title);
+    position: absolute;
+    font-size: 10px;
+    margin-left: 1rem;
+    color: white;
+    bottom: 0;
+    letter-spacing: 2px;
+} */
+
